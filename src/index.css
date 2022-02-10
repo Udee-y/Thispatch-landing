@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #184d47;
+}
+.hero{
+    background-color: #184D47;
+}
+.scrolled {
+    @apply shadow-xl;
+    border-bottom: 0px;
+    background-color: white;
+    color: black;
+
+}
+
+.bgNotScrolled{
+    color:black;
+    @apply bg-white
+}
+.bgScrolled{
+    color:white;
+    background-color: #184d47;
+}
+
